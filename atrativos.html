@@ -13,5 +13,130 @@
                         <hr>
                         <h1>Você está na página dos atrativos</h1>
                         <p>Conteúdo específico dos atrativos.</p>
+
+
+                        <style>
+                                /* Estrutura de 3 colunas responsiva */
+                                .grid-container {
+                                display: grid;
+                                grid-template-columns: repeat(3, 1fr);
+                                gap: 20px;
+                                padding: 20px;
+                                font-family: Arial, sans-serif;
+                                }
+
+                                /* Estilização de cada caixa (item) */
+                                details {
+                                border: 1px solid #ccc;
+                                border-radius: 4px;
+                                padding: 15px;
+                                background-color: #f9f9f9;
+                                }
+
+                                /* Título clicável /
+                                summary {
+                                font-weight: bold;
+                                cursor: pointer;
+                                list-style: none; / Esconde a seta padrão no Chrome/Firefox */
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                }
+
+                                /* Esconde a seta padrão no Safari */
+                                summary::-webkit-details-marker {
+                                display: none;
+                                }
+
+                                /* Adiciona o sinal de + visual */
+                                summary::after {
+                                content: "+";
+                                font-size: 1.2em;
+                                }
+
+                                /* Muda para - quando o item está aberto */
+                                details[open] summary::after {
+                                content: "-";
+                                }
+
+                                /* Espaçamento do conteúdo interno */
+                                .conteudo {
+                                margin-top: 15px;
+                                border-top: 1px solid #eee;
+                                padding-top: 10px;
+                                font-size: 0.9em;
+                                color: #444;
+                                }
+
+                                /* Ajuste para telas de celular */
+                                @media (max-width: 768px) {
+                                .grid-container {
+                                grid-template-columns: 1fr;
+                                }
+                                }
+                                </style>
+                                </head>
+                                <body>
+
+                                <div class="grid-container">
+                                <!-- Item 1 -->
+                                <details>
+                                <summary>Memorial Árabe</summary>
+                                <div class="conteudo">
+                                <p><strong>Endereço:</strong> Praça Gibran Khalil Gibran</p>
+                                <p><strong>Bairro:</strong> Centro</p>
+                                <p><strong>Horário:</strong> Segunda a sexta das 08h às 12h.</p>
+                                </div>
+                                </details>
+
+                                <!-- Item 2 -->
+                                <details>
+                                <summary>M. da Imigração Polonesa</summary>
+                                <div class="conteudo">
+                                <p><strong>Endereço:</strong> Bosque João Paulo II</p>
+                                <p><strong>Bairro:</strong> Centro Cívico</p>
+                                </div>
+                                </details>
+
+                                <!-- Item 3 -->
+                                <details>
+                                <summary>Memorial de Curitiba</summary>
+                                <div class="conteudo">
+                                <p><strong>Endereço:</strong> R. Dr. Claudino dos Santos, 79</p>
+                                <p><strong>Bairro:</strong> São Francisco</p>
+                                </div>
+                                </details>
+
+                                <!-- Item 4 -->
+                                <details><summary>Memorial Ucraniano</summary><div class="conteudo"><p>Conteúdo...</p></div></details>
+                                <!-- Item 5 -->
+                                <details><summary>Memorial Japonês</summary><div class="conteudo"><p>Conteúdo...</p></div></details>
+                                <!-- Item 6 -->
+                                <details><summary>Memorial Paranista</summary><div class="conteudo"><p>Conteúdo...</p></div></details>
+                                <!-- Item 7 -->
+                                <details><summary>Memorial Africano</summary><div class="conteudo"><p>Conteúdo...</p></div></details>
+                                <!-- Item 8 a 26 -->
+                                <details><summary>Item de Exemplo 8</summary><div class="conteudo"><p>Conteúdo...</p></div></details>
+                                <details><summary>Item de Exemplo 9</summary><div class="conteudo"><p>Conteúdo...</p></div></details>
+                                <details><summary>Item de Exemplo 10</summary><div class="conteudo"><p>Conteúdo...</p></div></details>
+                                <details><summary>Item de Exemplo 11</summary><div class="conteudo"><p>Conteúdo...</p></div></details>
+                                <details><summary>Item de Exemplo 12</summary><div class="conteudo"><p>Conteúdo...</p></div></details>
+                                <details><summary>Item de Exemplo 13</summary><div class="conteudo"><p>Conteúdo...</p></div></details>
+                                <details><summary>Item de Exemplo 14</summary><div class="conteudo"><p>Conteúdo...</p></div></details>
+                                <details><summary>Item de Exemplo 15</summary><div class="conteudo"><p>Conteúdo...</p></div></details>
+                                <details><summary>Item de Exemplo 16</summary><div class="conteudo"><p>Conteúdo...</p></div></details>
+                                <details><summary>Item de Exemplo 17</summary><div class="conteudo"><p>Conteúdo...</p></div></details>
+                                <details><summary>Item de Exemplo 18</summary><div class="conteudo"><p>Conteúdo...</p></div></details>
+                                <details><summary>Item de Exemplo 19</summary><div class="conteudo"><p>Conteúdo...</p></div></details>
+                                <details><summary>Item de Exemplo 20</summary><div class="conteudo"><p>Conteúdo...</p></div></details>
+                                <details><summary>Item de Exemplo 21</summary><div class="conteudo"><p>Conteúdo...</p></div></details>
+                                <details><summary>Item de Exemplo 22</summary><div class="conteudo"><p>Conteúdo...</p></div></details>
+                                <details><summary>Item de Exemplo 23</summary><div class="conteudo"><p>Conteúdo...</p></div></details>
+                                <details><summary>Item de Exemplo 24</summary><div class="conteudo"><p>Conteúdo...</p></div></details>
+                                <details><summary>Item de Exemplo 25</summary><div class="conteudo"><p>Conteúdo...</p></div></details>
+                                <details><summary>Item de Exemplo 26</summary><div class="conteudo"><p>Conteúdo...</p></div></details>
+
+                                </div> <!-- O fechamento da div da grade foi movido para cá -->
+
                 </body>
                 </html>
