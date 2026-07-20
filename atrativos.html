@@ -2,65 +2,41 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Página - atrativos </title>
-</head>
-<body style="background-color: #4A4A4A;">
-    <p align="center">
-        <a href="index.html">HOME</a> | 
-        <a href="atrativos.html"><b>atrativos</b></a> | 
-        <a href="o-que-fazer.html">o que fazer</a> |
-        <a href="uteis.html">uteis</a> |</p>
-    <hr>
-    <h1>Você está na página dos atrativos</h1>
-    <p>Conteúdo específico dos atrativos aqui.</p>
+        <title>Página - atrativos</title>
+        </head>
+        <body style="background-color: #4A4A4A; font-family: sans-serif; text-align: center; margin: 0; padding: 0;">
 
+            <p style="margin-top: 20px;">
+                    <a href="index.html" style="color: white; text-decoration: none;">HOME</a> | 
+                            <a href="atrativos.html" style="color: white; text-decoration: none;"><b>atrativos</b></a> | 
+                                    <a href="o-que-fazer.html" style="color: white; text-decoration: none;">o que fazer</a> |
+                                            <a href="uteis.html" style="color: white; text-decoration: none;">uteis</a>
+                                                </p>
+                                                    <hr>
+                                                        
+                                                            <h1 style="color: white;">Você está na página dos atrativos</h1>
+                                                                <p style="color: #ccc;">Conteúdo específico dos atrativos aqui.</p>
 
-    <!-- ÁREA DO CARROSSEL (Simula a estrutura da imagem) -->
-    <center>
-    <br><br><br>
-    
-    <!-- Âncoras invisíveis de destino para o scroll funcionar -->
-    <span id="card30"></span>
-    <span id="card0"></span>
-    <span id="card1"></span>
-    
-    <!-- Exibição dos Cartões lado a lado usando Tabela Nativa do HTML -->
-    <table border="0" cellspacing="20">
-    <tr>
-    <!-- Cartão Anterior (30) -->
-    <td bgcolor="#4a2574" width="100" height="150" align="center" valign="middle">
-    <font size="5"><b>30</b></font>
-    </td>
-    
-    <!-- Cartão Central (0) -->
-    <td bgcolor="#6a1b9a" width="150" height="200" align="center" valign="middle">
-    <font size="7"><b>0</b></font>
-    </td>
-    
-    <!-- Cartão Próximo (1) -->
-    <td bgcolor="#4a2574" width="100" height="150" align="center" valign="middle">
-    <font size="5"><b>1</b></font>
-    </td>
-    </tr>
-    </table>
-    
-    <br><br>
-    
-    <!-- BOTÕES DE NAVEGAÇÃO NATIVOS -->
-    <!-- O botão PREV foca no espaço do card 30, o NEXT foca no card 1 -->
-    <table border="0" cellpadding="10">
-    <tr>
-    <td bgcolor="#555555">
-    <a href="#card30" style="color: white; text-decoration: none; font-family: sans-serif;"><b>PREV</b></a>
-    </td>
-    <td bgcolor="#4CAF50">
-    <a href="#card1" style="color: white; text-decoration: none; font-family: sans-serif;"><b>NEXT</b></a>
-    </td>
-    </tr>
-    </table>
-    
-    </center>
-    -->
+                                                                    <!-- ÁREA DO CARROSSEL (Estilos aplicados direto nas tags) -->
+                                                                        <div class="carousel-container" style="display: flex; overflow-x: auto; scroll-behavior: smooth; scroll-snap-type: x mandatory; width: 200px; margin: 0 auto; padding: 20px 0; -ms-overflow-style: none; scrollbar-width: none;">
+                                                                                
+                                                                                        <!-- Cartão Anterior -->
+                                                                                                <div id="c30" style="flex: 0 0 150px; height: 200px; margin: 0 10px; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; scroll-snap-align: center; border-radius: 8px; background-color: #4a2574; font-size: 24px;">30</div>
 
-</body>
-</html>
+                                                                                                        <!-- Cartão Central -->
+                                                                                                                <div id="c0" style="flex: 0 0 150px; height: 200px; margin: 0 10px; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; scroll-snap-align: center; border-radius: 8px; background-color: #6a1b9a; font-size: 36px;">0</div>
+
+                                                                                                                        <!-- Cartão Próximo -->
+                                                                                                                                <div id="c1" style="flex: 0 0 150px; height: 200px; margin: 0 10px; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; scroll-snap-align: center; border-radius: 8px; background-color: #4a2574; font-size: 24px;">1</div>
+                                                                                                                                        
+                                                                                                                                            </div>
+
+                                                                                                                                                <!-- BOTÕES DE NAVEGAÇÃO -->
+                                                                                                                                                    <div style="margin-top: 20px;">
+                                                                                                                                                            <a href="#c30" style="padding: 10px 20px; color: white; text-decoration: none; font-weight: bold; margin: 0 5px; display: inline-block; border-radius: 4px; background-color: #555555;">PREV</a>
+                                                                                                                                                                    <a href="#c1" style="padding: 10px 20px; color: white; text-decoration: none; font-weight: bold; margin: 0 5px; display: inline-block; border-radius: 4px; background-color: #4CAF50;">NEXT</a>
+                                                                                                                                                                        </div>
+
+                                                                                                                                                                        </body>
+                                                                                                                                                                        </html>
+                                                                                                                                                                        
