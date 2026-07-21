@@ -79,42 +79,64 @@
                                 </head>
                                 <body>
 
-                                <p class="grid-container">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Rua_24_horas_4_Curitiba_Basil.jpg" alt="" whidth="5%">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Rua_24_horas_4_Curitiba_Basil.jpg" whidth="5%" >
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Rua_24_horas_4_Curitiba_Basil.jpg" whidth="5%">
-                                </p>
-                                <div class="grid-container">
-                                <!-- Item 1 -->    
-                                </p>
-                                 <details>
-                                <summary>Rua 24 Horas</summary>
-                                <div class="conteudo">
-                                <p><strong>Endereço:</strong> Visconde de Nácar</p>
-                                <p><strong>Bairro:</strong> Centro</p>
-                                <p><strong>Horário:</strong>Todos os dias das 09:00 às 22:00</p>
-                                </div>
-                                </details>
+                                <!-- Container que organiza as 3 colunas lado a lado -->
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; align-items: start;">
 
-                                <!-- Item 2 -->
-                                <details>
-                                <summary>Praça Rui Barbosa</summary>
-                                <div class="conteudo">
-                                <p><strong>Endereço:</strong> Praça Rui Barbosa</p>
-                                <p><strong>Bairro:</strong> Centro </p>
-                                <p> <strong>Horário: </strong> Espaço público aberto (comércio até as 19:00)</p>
-                                </div>
-                                </details>
+  <!-- Grupo 1 -->
+  <div style="display: flex; flex-direction: column;">
+    <!-- Imagem em cima, colada na caixa -->
+    <img src="https://wikimedia.org" 
+         alt="Rua 24 Horas" 
+         width="100%" 
+         style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block;">
+    
+    <!-- Caixa de conteúdo embaixo -->
+    <details style="border: 2px solid #333; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 10px; background-color: #f9f9f9;">
+      <summary style="font-weight: bold; cursor: pointer;">Rua 24 Horas</summary>
+      <div style="margin-top: 10px;">
+        <p><strong>Endereço:</strong> Visconde de Nácar</p>
+        <p><strong>Bairro:</strong> Centro</p>
+        <p><strong>Horário:</strong> Todos os dias das 09:00 às 22:00</p>
+      </div>
+    </details>
+  </div>
 
-                                <!-- Item 3 -->
-                                <details>
-                                <summary>Museu Ferroviário</summary>
-                                <div class="conteudo">
-                                <p><strong>Endereço:</strong>av.Sete de Setembro, 2775 (Shopping Estação)</p>
-                                <p><strong>Bairro:</strong> Rebouças </p>
-                                <p><strong>Horário:</strong>Terça a sábado, das 10h00 às 22h00; domingo, das 11h00 às 22h00 </p>
-                                </div>
-                                </details>
+  <!-- Grupo 2 -->
+  <div style="display: flex; flex-direction: column;">
+    <img src="https://wikimedia.org" 
+         alt="Praça Rui Barbosa" 
+         width="100%" 
+         style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block;">
+    
+    <details style="border: 2px solid #333; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 10px; background-color: #f9f9f9;">
+      <summary style="font-weight: bold; cursor: pointer;">Praça Rui Barbosa</summary>
+      <div style="margin-top: 10px;">
+        <p><strong>Endereço:</strong> Praça Rui Barbosa</p>
+        <p><strong>Bairro:</strong> Centro</p>
+        <p><strong>Horário:</strong> Espaço público aberto (comércio até as 19:00)</p>
+      </div>
+    </details>
+  </div>
+
+  <!-- Grupo 3 -->
+  <div style="display: flex; flex-direction: column;">
+    <img src="https://wikimedia.org" 
+         alt="Museu Ferroviário" 
+         width="100%" 
+         style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block;">
+    
+    <details style="border: 2px solid #333; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 10px; background-color: #f9f9f9;">
+      <summary style="font-weight: bold; cursor: pointer;">Museu Ferroviário</summary>
+      <div style="margin-top: 10px;">
+        <p><strong>Endereço:</strong> av. Sete de Setembro, 2775 (Shopping Estação)</p>
+        <p><strong>Bairro:</strong> Rebouças</p>
+        <p><strong>Horário:</strong> Terça a sábado, das 10h00 às 22h00; domingo, das 11h00 às 22h00</p>
+      </div>
+    </details>
+  </div>
+
+</div>
+
 
                                 <!-- Item 4 -->
                                 <details>
