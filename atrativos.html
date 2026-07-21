@@ -82,422 +82,151 @@
                                 <!-- Container que organiza as 3 colunas lado a lado -->
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; align-items: start;">
 
-  <!-- Grupo 1 -->
-  <div style="display: flex; flex-direction: column;">
-    <!-- Imagem em cima, colada na caixa -->
-    <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Rua_24_horas_4_Curitiba_Basil.jpg" 
-         alt="Rua 24 Horas" 
-         width="100%" 
-         style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block;">
-    
-    <!-- Caixa de conteúdo embaixo -->
-    <details style="border: 2px solid #333; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 10px; background-color: #f9f9f9;">
-      <summary style="font-weight: bold; cursor: pointer;">Rua 24 Horas</summary>
-      <div style="margin-top: 10px;">
-        <p><strong>Endereço:</strong> Visconde de Nácar</p>
-        <p><strong>Bairro:</strong> Centro</p>
-        <p><strong>Horário:</strong> Todos os dias das 09:00 às 22:00</p>
-      </div>
-    </details>
-  </div>
+  <!-- Container principal para todos os itens em 3 colunas -->
+  <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 25px; align-items: start; max-width: 1200px; margin: 0 auto; padding: 20px;">
+  
+    <!-- Item 1: Rua 24 Horas -->
+      <div style="display: flex; flex-direction: column; height: 100%;">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Rua_24_horas_4_Curitiba_Basil.jpg" 
+                   alt="Rua 24 Horas" 
+                            width="100%" 
+                                     style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block; height: 200px; object-fit: cover;">
+                                     
+                                         <details style="border: 2px solid #333; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 10px; background-color: #f9f9f9; flex-grow: 1;">
+                                               <summary style="font-weight: bold; cursor: pointer;">Rua 24 Horas</summary>
+                                                     <div style="margin-top: 10px;">
+                                                             <p><strong>Endereço:</strong> Visconde de Nácar</p>
+                                                                     <p><strong>Bairro:</strong> Centro</p>
+                                                                             <p><strong>Horário:</strong> Todos os dias das 09:00 às 22:00</p>
+                                                                                   </div>
+                                                                                       </details>
+                                                                                         </div>
+                                                                                         
+                                                                                           <!-- Item 2: Praça Rui Barbosa -->
+                                                                                             <div style="display: flex; flex-direction: column; height: 100%;">
+                                                                                                 <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Praca_rui_barbosa_curitiba_anos_1960.jpg" 
+                                                                                                          alt="Praça Rui Barbosa" 
+                                                                                                                   width="100%" 
+                                                                                                                            style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block; height: 200px; object-fit: cover;">
+                                                                                                                            
+                                                                                                                                <details style="border: 2px solid #333; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 10px; background-color: #f9f9f9; flex-grow: 1;">
+                                                                                                                                      <summary style="font-weight: bold; cursor: pointer;">Praça Rui Barbosa</summary>
+                                                                                                                                            <div style="margin-top: 10px;">
+                                                                                                                                                    <p><strong>Endereço:</strong> Praça Rui Barbosa</p>
+                                                                                                                                                            <p><strong>Bairro:</strong> Centro</p>
+                                                                                                                                                                    <p><strong>Horário:</strong> Espaço público aberto (comércio até as 19:00)</p>
+                                                                                                                                                                          </div>
+                                                                                                                                                                              </details>
+                                                                                                                                                                                </div>
+                                                                                                                                                                                
+                                                                                                                                                                                  <!-- Item 3: Museu Ferroviário -->
+                                                                                                                                                                                    <div style="display: flex; flex-direction: column; height: 100%;">
+                                                                                                                                                                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Antiga_Esta%C3%A7%C3%A3o_Ferrovi%C3%A1ria_Curitiba_2015_%286%29.JPG/1280px-Antiga_Esta%C3%A7%C3%A3o_Ferrovi%C3%A1ria_Curitiba_2015_%286%29.JPG" 
+                                                                                                                                                                                                 alt="Museu Ferroviário" 
+                                                                                                                                                                                                          width="100%" 
+                                                                                                                                                                                                                   style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block; height: 200px; object-fit: cover;">
+                                                                                                                                                                                                                   
+                                                                                                                                                                                                                       <details style="border: 2px solid #333; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 10px; background-color: #f9f9f9; flex-grow: 1;">
+                                                                                                                                                                                                                             <summary style="font-weight: bold; cursor: pointer;">Museu Ferroviário</summary>
+                                                                                                                                                                                                                                   <div style="margin-top: 10px;">
+                                                                                                                                                                                                                                           <p><strong>Endereço:</strong> av. Sete de Setembro, 2775 (Shopping Estação)</p>
+                                                                                                                                                                                                                                                   <p><strong>Bairro:</strong> Rebouças</p>
+                                                                                                                                                                                                                                                           <p><strong>Horário:</strong> Terça a sábado, das 10h00 às 22h00; domingo, das 11h00 às 22h00</p>
+                                                                                                                                                                                                                                                                 </div>
+                                                                                                                                                                                                                                                                     </details>
+                                                                                                                                                                                                                                                                       </div>
+                                                                                                                                                                                                                                                                       
+                                                                                                                                                                                                                                                                         <!-- Item 4: Teatro Paiol -->
+                                                                                                                                                                                                                                                                           <div style="display: flex; flex-direction: column; height: 100%;">
+                                                                                                                                                                                                                                                                               <img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Teatro_paiol_curitiba.jpg" 
+                                                                                                                                                                                                                                                                                        alt="Teatro Paiol" 
+                                                                                                                                                                                                                                                                                                 width="100%" 
+                                                                                                                                                                                                                                                                                                          style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block; height: 200px; object-fit: cover;">
+                                                                                                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                                                              <details style="border: 2px solid #333; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 10px; background-color: #f9f9f9; flex-grow: 1;">
+                                                                                                                                                                                                                                                                                                                    <summary style="font-weight: bold; cursor: pointer;">Teatro Paiol</summary>
+                                                                                                                                                                                                                                                                                                                          <div style="margin-top: 10px;">
+                                                                                                                                                                                                                                                                                                                                  <p><strong>Endereço:</strong> R. Coronel Zacarias</p>
+                                                                                                                                                                                                                                                                                                                                          <p><strong>Bairro:</strong> Prado Velho</p>
+                                                                                                                                                                                                                                                                                                                                                  <p><strong>Horário:</strong> Conforme programação de espetáculo</p>
+                                                                                                                                                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                                                                                                                                                                            </details>
+                                                                                                                                                                                                                                                                                                                                                              </div>
+                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                <!-- Item 5: Jardim Botânico -->
+                                                                                                                                                                                                                                                                                                                                                                  <div style="display: flex; flex-direction: column; height: 100%;">
+                                                                                                                                                                                                                                                                                                                                                                      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Estufa-Jardim-Botanico-Curitiba-out.JPG/1280px-Estufa-Jardim-Botanico-Curitiba-out.JPG" 
+                                                                                                                                                                                                                                                                                                                                                                               alt="Jardim Botânico" 
+                                                                                                                                                                                                                                                                                                                                                                                        width="100%" 
+                                                                                                                                                                                                                                                                                                                                                                                                 style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block; height: 200px; object-fit: cover;">
+                                                                                                                                                                                                                                                                                                                                                                                                 
+                                                                                                                                                                                                                                                                                                                                                                                                     <details style="border: 2px solid #333; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 10px; background-color: #f9f9f9; flex-grow: 1;">
+                                                                                                                                                                                                                                                                                                                                                                                                           <summary style="font-weight: bold; cursor: pointer;">Jardim Botânico</summary>
+                                                                                                                                                                                                                                                                                                                                                                                                                 <div style="margin-top: 10px;">
+                                                                                                                                                                                                                                                                                                                                                                                                                         <p><strong>Endereço:</strong> R. Eng. Ostoja Roguski, 350</p>
+                                                                                                                                                                                                                                                                                                                                                                                                                                 <p><strong>Bairro:</strong> Jardim Botânico</p>
+                                                                                                                                                                                                                                                                                                                                                                                                                                         <p><strong>Horário:</strong> Todos os dias, das 06:00 às 19:30</p>
+                                                                                                                                                                                                                                                                                                                                                                                                                                               </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                   </details>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                     </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+                                                                                                                                                                                                                                                                                                                                                                                                                                                     </div>
 
-  <!-- Grupo 2 -->
-  <div style="display: flex; flex-direction: column;">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Praca_rui_barbosa_curitiba_anos_1960.jpg" 
-         alt="Praça Rui Barbosa" 
-         width="100%" 
-         style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block;">
-    
-    <details style="border: 2px solid #333; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 10px; background-color: #f9f9f9;">
-      <summary style="font-weight: bold; cursor: pointer;">Praça Rui Barbosa</summary>
-      <div style="margin-top: 10px;">
-        <p><strong>Endereço:</strong> Praça Rui Barbosa</p>
-        <p><strong>Bairro:</strong> Centro</p>
-        <p><strong>Horário:</strong> Espaço público aberto (comércio até as 19:00)</p>
-      </div>
-    </details>
-  </div>
 
-  <!-- Grupo 3 -->
-  <div style="display: flex; flex-direction: column;">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Antiga_Esta%C3%A7%C3%A3o_Ferrovi%C3%A1ria_Curitiba_2015_%286%29.JPG/1280px-Antiga_Esta%C3%A7%C3%A3o_Ferrovi%C3%A1ria_Curitiba_2015_%286%29.JPG" 
-         alt="Museu Ferroviário" 
-         width="100%" 
-         style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block;">
-    
-    <details style="border: 2px solid #333; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 10px; background-color: #f9f9f9;">
-      <summary style="font-weight: bold; cursor: pointer;">Museu Ferroviário</summary>
-      <div style="margin-top: 10px;">
-        <p><strong>Endereço:</strong> av. Sete de Setembro, 2775 (Shopping Estação)</p>
-        <p><strong>Bairro:</strong> Rebouças</p>
-        <p><strong>Horário:</strong> Terça a sábado, das 10h00 às 22h00; domingo, das 11h00 às 22h00</p>
-      </div>
-    </details>
-  </div>
+<!-- Container para os itens 6, 7 e 8 organizados em 3 colunas -->
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 25px; align-items: start; max-width: 1200px; margin: 0 auto; padding: 20px;">
 
-</div>
-
-<!-- Container principal que organiza os itens em linhas com 3 colunas -->
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 25px; align-items: start;">
-
-  <!-- Item 4 -->
-  <div style="display: flex; flex-direction: column;">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Teatro_paiol_curitiba.jpg" 
-         alt="Teatro Paiol" 
-         width="100%" 
-         style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block;">
-    
-    <details style="border: 2px solid #333; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 10px; background-color: #f9f9f9;">
-      <summary style="font-weight: bold; cursor: pointer;">Teatro Paiol</summary>
-      <div style="margin-top: 10px;">
-        <p><strong>Endereço:</strong> R. Coronel Zacarias</p>
-        <p><strong>Bairro:</strong> Prado Velho</p>
-        <p><strong>Horário:</strong> Conforme programação de espetáculo</p>
-      </div>
-    </details>
-  </div>
-
-  <!-- Item 5 -->
-  <div style="display: flex; flex-direction: column;">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Estufa-Jardim-Botanico-Curitiba-out.JPG/1280px-Estufa-Jardim-Botanico-Curitiba-out.JPG" 
-         alt="Jardim Botânico" 
-         width="100%" 
-         style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block;">
-    
-    <details style="border: 2px solid #333; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 10px; background-color: #f9f9f9;">
-      <summary style="font-weight: bold; cursor: pointer;">Jardim Botânico</summary>
-      <div style="margin-top: 10px;">
-        <p><strong>Endereço:</strong> R. Eng. Ostoja Roguski, 350</p>
-        <p><strong>Bairro:</strong> Jardim Botânico</p>
-        <p><strong>Horário:</strong> Todos os dias, das 06:00 às 19:30</p>
-      </div>
-    </details>
-  </div>
-
-  <!-- Item 6 -->
-  <div style="display: flex; flex-direction: column;">
-    <img src="https://muralzinhodeideias.com.br/wp-content/uploads/2023/05/memorialparanista-Pedro-Ribas.jpeg" 
-         alt="Memorial Paranista" 
-         width="100%" 
-         style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block;">
-    
-    <details style="border: 2px solid #333; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 10px; background-color: #f9f9f9;">
-      <summary style="font-weight: bold; cursor: pointer;">Memorial Paranista</summary>
-      <div style="margin-top: 10px;">
-        <p><strong>Endereço:</strong> R. Mateus Leme, 4700</p>
-        <p><strong>Bairro:</strong> São Lourenço</p>
-        <p><strong>Horário:</strong> Terça a domingo, das 10:00 às 18:00</p>
-      </div>
-    </details>
-  </div>
-
-  <!-- Item 7 -->
-  <div style="display: flex; flex-direction: column;">
-    <img src="https://lirp.cdn-website.com/4a2f40c4/dms3rep/multi/opt/MemorialAfricano-640w.jpg" 
-         alt="Memorial Africano" 
-         width="100%" 
-         style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block;">
-    
-    <details style="border: 2px solid #333; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 10px; background-color: #f9f9f9;">
-      <summary style="font-weight: bold; cursor: pointer;">Memorial Africano</summary>
-      <div style="margin-top: 10px;">
-        <p><strong>Endereço:</strong> R. Lothário Boutin, 374</p>
-        <p><strong>Bairro:</strong> Pinheirinho</p>
-        <p><strong>Horário:</strong> Aberto diariamente (espaço público)</p>
-      </div>
-    </details>
-  </div>
-
-  <!-- Item 8 -->
-  <div style="display: flex; flex-direction: column;">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Pa%C3%A7o_da_Liberdade_-_Curitiba_-_panoramio_%284%29.jpg/1280px-Pa%C3%A7o_da_Liberdade_-_Curitiba_-_panoramio_%284%29.jpg" 
-         alt="Paço da liberdade " 
-         width="100%" 
-         style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block;">
-    
-    <details style="border: 2px solid #333; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 10px; background-color: #f9f9f9;">
-      <summary style="font-weight: bold; cursor: pointer;">Item de Exemplo 8</summary>
-      <div style="margin-top: 10px;">
-        <p><strong>Endereço:</strong> Praça Generoso Marques</p>
-        <p><strong>Bairro:</strong> Centro</p>
-        <p><strong>Horário:</strong> Segunda a sexta, das 09:00 às 18:00</p>
-      </div>
-    </details>
-  </div>
-
-  <!-- Item 9 -->
-  <div style="display: flex; flex-direction: column;">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Passeio_P%C3%BAblico_Curitiba_2015_%2811%29.JPG" 
-         alt="Passeio Público " 
-         width="100%" 
-         style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block;">
-    
-    <details style="border: 2px solid #333; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 10px; background-color: #f9f9f9;">
-      <summary style="font-weight: bold; cursor: pointer;">Item de Exemplo 9</summary>
-      <div style="margin-top: 10px;">
-        <p><strong>Endereço:</strong> Avenida de Teste, 456</p>
-        <p><strong>Bairro:</strong> Batel</p>
-        <p><strong>Horário:</strong> Sob consulta</p>
-      </div>
-    </details>
-  </div>
-
-  <div style="display: flex; flex-direction: column;">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Memorial_Polon%C3%AAs%2C_Centro_C%C3%ADvico_de_Curitiba.jpg/1280px-Memorial_Polon%C3%AAs%2C_Centro_C%C3%ADvico_de_Curitiba.jpg" 
-               alt="Centro Cívico" 
-                      width="100%" 
-                             style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block;">
-
-                                 <details style="border: 2px solid #333; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 10px; background-color: #f9f9f9;">
-                                       <summary style="font-weight: bold; cursor: pointer;">16. Memorial Paranista</summary>
-                                             <div style="margin-top: 10px;">
-                                                     <p><strong>Endereço:</strong> R. Mateus Leme, 4700 (Anexo ao Parque)</p>
-                                                             <p><strong>Bairro:</strong> São Lourenço</p>
-                                                                     <p><strong>Horário:</strong> Terça a domingo, das 10:00 às 18:00</p>
-                                                                           </div>
-                                                                               </details>
-                                                                                 </div>
-
-<!-- Container principal que organiza os itens de 10 a 16 em linhas com 3 colunas -->
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 25px; align-items: start; font-family: Arial, sans-serif;">
-  <!-- Item 11 -->
-  <div style="display: flex; flex-direction: column;">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Museu_Oscar_Niemeyer_Curitiba.jpg" 
-      alt="Museu Oscar Niemeyer" 
-      width="100%" 
-      style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block;">
-      
-      <details style="border: 2px solid #333; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 10px; background-color: #f9f9f9;">
-        <summary style="font-weight: bold; cursor: pointer;">11. Museu Oscar Niemeyer (MON)</summary>
-        <div style="margin-top: 10px;">
-          <p><strong>Endereço:</strong> R. Marechal Hermes, 999</p>
-          <p><strong>Bairro:</strong> Centro Cívico</p>
-          <p><strong>Horário:</strong> Terça a domingo, das 10:00 às 18:00</p>
-        </div>
-      </details>
-    </div>
-                                                                                                                                                                                    
-  <!-- Item 13 -->
-  <div style="display: flex; flex-direction: column;">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Museu_do_Ipiranga_%284267811716%29.jpg/1280px-Museu_do_Ipiranga_%284267811716%29.jpg"
-         alt="Bosque Alemão"
-         width="100%" 
-         style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block;">
-        
-    <details style="border: 2px solid #333; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 10px; background-color: #f9f9f9;">
-      <summary style="font-weight: bold; cursor: pointer;">13. Bosque Alemão</summary>
-      <div style="margin-top: 10px;">
-        <p><strong>Endereço:</strong> R. Nicolo Paganini, s/n</p>
-        <p><strong>Bairro:</strong> Pilarzinho</p>
-        <p><strong>Horário:</strong> Todos os dias, das 08:00 às 20:00</p>
-      </div>
-    </details>
-  </div>
-                                                                                                                                                                                                                                                
-  <!-- Item 14 -->
-  <div style="display: flex; flex-direction: column;">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Pedreira_do_Bosque_Zaninelli.jpg/1280px-Pedreira_do_Bosque_Zaninelli.jpg" 
-         alt="Bosque Zaninelli" 
-         width="100%" 
-         style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block;">
-      
-    <details style="border: 2px solid #333; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 10px; background-color: #f9f9f9;">
-      <summary style="font-weight: bold; cursor: pointer;">14. Unilivre</summary>
-      <div style="margin-top: 10px;">
-        <p><strong>Endereço:</strong> R. Victor Benato, 210</p>
-        <p><strong>Bairro:</strong> Pilarzinho</p>
-        <p><strong>Horário:</strong> Todos os dias, das 08:00 às 18:00</p>
-      </div>
-    </details>
-  </div>
-                                                                                                                                                                                                                                                                                                            
-  <!-- Item 15 -->
-  <div style="display: flex; flex-direction: column;">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Parque_S%C3%A3o_Louren%C3%A7o.JPG/1280px-Parque_S%C3%A3o_Louren%C3%A7o.JPG" 
-       alt="Parque São Lourenço" 
-       width="100%" 
-       style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block;">
-       
-    <details style="border: 2px solid #333; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 10px; background-color: #f9f9f9;">
-      <summary style="font-weight: bold; cursor: pointer;">15. Parque São Lourenço</summary>
-      <div style="margin-top: 10px;">
-        <p><strong>Endereço:</strong> R. Mateus Leme, 4700</p>
-        <p><strong>Bairro:</strong> São Lourenço</p>
-        <p><strong>Horário:</strong> Todos os dias, das 06:00 às 22:00</p>
-      </div>
-    </details>
-  </div>
-                                                                                                                                                                                                                                                                                                                                                                        
-  <!-- Item 16 -->
-  <div style="display: flex; flex-direction: column;">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Parque_Tangu%C3%A1_-_Curitiba.JPG" 
-       alt="Parque Tanguá" 
-       width="100%" 
-       style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block;">
-        
-    <details style="border: 2px solid #333; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 10px; background-color: #f9f9f9;">
-      <summary style="font-weight: bold; cursor: pointer;">16. Memorial Paranista</summary>
-      <div style="margin-top: 10px;">
-        <p><strong>Endereço:</strong> R. Mateus Leme, 4700 (Anexo ao Parque)</p>
-        <p><strong>Bairro:</strong> São Lourenço</p>
-        <p><strong>Horário:</strong> Terça a domingo, das 10:00 às 18:00</p>
-      </div>
-    </details>
-  </div>
-
-      <div style="display: flex; flex-direction: column;">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Parque_Tingui_em_Curitiba_-_animais_silvestres_livres_%28capivaras%29.jpg" 
-                   alt="Parque Tingui" 
+  <!-- Item 6: Memorial Paranista -->
+    <div style="display: flex; flex-direction: column; height: 100%;">
+        <img src="https://muralzinhodeideias.com.br/wp-content/uploads/2023/05/memorialparanista-Pedro-Ribas.jpeg" 
+                 alt="Memorial Paranista" 
                           width="100%" 
-                                 style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block;">
-
-                                     <details style="border: 2px solid #333; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 10px; background-color: #f9f9f9;">
-                                           <summary style="font-weight: bold; cursor: pointer;">16. Memorial Paranista</summary>
-                                                 <div style="margin-top: 10px;">
-                                                         <p><strong>Endereço:</strong> R. Mateus Leme, 4700 (Anexo ao Parque)</p>
-                                                                 <p><strong>Bairro:</strong> São Lourenço</p>
-                                                                         <p><strong>Horário:</strong> Terça a domingo, das 10:00 às 18:00</p>
-                                                                               </div>
-                                                                                   </details>
-                                                                                     </div>
-                                                                            
-  <div style="display: flex; flex-direction: column;">
-        <img  src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Memorial_Ucraniano_-_Curitiba_-_panoramio_%284%29.jpg" 
-               alt="Memorial Ucraniano"
-                      width="100%" 
-                             style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block;">
-
-                                 <details style="border: 2px solid #333; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 10px; background-color: #f9f9f9;">
-                                       <summary style="font-weight: bold; cursor: pointer;">16. Memorial Paranista</summary>
-                                             <div style="margin-top: 10px;">
-                                                     <p><strong>Endereço:</strong> R. Mateus Leme, 4700 (Anexo ao Parque)</p>
-                                                             <p><strong>Bairro:</strong> São Lourenço</p>
-                                                                     <p><strong>Horário:</strong> Terça a domingo, das 10:00 às 18:00</p>
-                                                                           </div>
-                                                                               </details>
+                                   style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block; height: 200px; object-fit: cover;">
+                                   
+                                       <details style="border: 2px solid #333; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 10px; background-color: #f9f9f9; flex-grow: 1;">
+                                             <summary style="font-weight: bold; cursor: pointer;">Memorial Paranista</summary>
+                                                   <div style="margin-top: 10px;">
+                                                           <p><strong>Endereço:</strong> R. Mateus Leme, 4700</p>
+                                                                   <p><strong>Bairro:</strong> São Lourenço</p>
+                                                                           <p><strong>Horário:</strong> Terça a domingo, das 10:00 às 18:00</p>
                                                                                  </div>
-  <div style="display: flex; flex-direction: column;">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Portal_do_Passeio_P%C3%BAblico_-_Curitiba.jpg/1280px-Portal_do_Passeio_P%C3%BAblico_-_Curitiba.jpg" 
-               alt="Portal Italiano" 
-                      width="100%" 
-                             style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block;">
-
-                                 <details style="border: 2px solid #333; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 10px; background-color: #f9f9f9;">
-                                       <summary style="font-weight: bold; cursor: pointer;">16. Memorial Paranista</summary>
-                                             <div style="margin-top: 10px;">
-                                                     <p><strong>Endereço:</strong> R. Mateus Leme, 4700 (Anexo ao Parque)</p>
-                                                             <p><strong>Bairro:</strong> São Lourenço</p>
-                                                                     <p><strong>Horário:</strong> Terça a domingo, das 10:00 às 18:00</p>
-                                                                           </div>
-                                                                               </details>
-                                                                                 </div>
-  <div style="display: flex; flex-direction: column;">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/PortalSantaFelicidadeCuritiba.JPG/1280px-PortalSantaFelicidadeCuritiba.JPG" 
-               alt="Santa Felicidade"
-                      width="100%" 
-                             style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block;">
-
-                                 <details style="border: 2px solid #333; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 10px; background-color: #f9f9f9;">
-                                       <summary style="font-weight: bold; cursor: pointer;">16. Memorial Paranista</summary>
-                                             <div style="margin-top: 10px;">
-                                                     <p><strong>Endereço:</strong> R. Mateus Leme, 4700 (Anexo ao Parque)</p>
-                                                             <p><strong>Bairro:</strong> São Lourenço</p>
-                                                                     <p><strong>Horário:</strong> Terça a domingo, das 10:00 às 18:00</p>
-                                                                           </div>
-                                                                               </details>
-                                                                                 </div>
-  <div style="display: flex; flex-direction: column;">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Parque_Barigui_-_panoramio_-_enioprado_%281%29.jpg/1280px-Parque_Barigui_-_panoramio_-_enioprado_%281%29.jpg" 
-               alt="Parque Barigui" 
-                      width="100%" 
-                             style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block;">
-
-                                 <details style="border: 2px solid #333; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 10px; background-color: #f9f9f9;">
-                                       <summary style="font-weight: bold; cursor: pointer;">16. Memorial Paranista</summary>
-                                             <div style="margin-top: 10px;">
-                                                     <p><strong>Endereço:</strong> R. Mateus Leme, 4700 (Anexo ao Parque)</p>
-                                                             <p><strong>Bairro:</strong> São Lourenço</p>
-                                                                     <p><strong>Horário:</strong> Terça a domingo, das 10:00 às 18:00</p>
-                                                                           </div>
-                                                                               </details>
-                                                                                 </div>
-  <div style="display: flex; flex-direction: column;">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Parque_Barigui_-_panoramio_-_enioprado_%281%29.jpg/1280px-Parque_Barigui_-_panoramio_-_enioprado_%281%29.jpg" 
-               alt="Torre Panorâmica" 
-                      width="100%" 
-                             style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block;">
-
-                                 <details style="border: 2px solid #333; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 10px; background-color: #f9f9f9;">
-                                       <summary style="font-weight: bold; cursor: pointer;">16. Memorial Paranista</summary>
-                                             <div style="margin-top: 10px;">
-                                                     <p><strong>Endereço:</strong> R. Mateus Leme, 4700 (Anexo ao Parque)</p>
-                                                             <p><strong>Bairro:</strong> São Lourenço</p>
-                                                                     <p><strong>Horário:</strong> Terça a domingo, das 10:00 às 18:00</p>
-                                                                           </div>
-                                                                               </details>
-                                                                                 </div>
-  <div style="display: flex; flex-direction: column;">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Centro_Cultural_Vilinha_Curitiba_29-03-2015_%2813%29.JPG/1280px-Centro_Cultural_Vilinha_Curitiba_29-03-2015_%2813%29.JPG" 
-               alt="Setor Histórico" 
-                      width="100%" 
-                             style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block;">
-
-                                 <details style="border: 2px solid #333; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 10px; background-color: #f9f9f9;">
-                                       <summary style="font-weight: bold; cursor: pointer;">16. Memorial Paranista</summary>
-                                             <div style="margin-top: 10px;">
-                                                     <p><strong>Endereço:</strong> R. Mateus Leme, 4700 (Anexo ao Parque)</p>
-                                                             <p><strong>Bairro:</strong> São Lourenço</p>
-                                                                     <p><strong>Horário:</strong> Terça a domingo, das 10:00 às 18:00</p>
-                                                                           </div>
-                                                                               </details>
-                                                                                 </div>
-  <div style="display: flex; flex-direction: column;">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/CURITIBA%2C_%28Pra%C3%A7a_Tiradentes%29%2C_Paran%C3%A1%2C_Brasil_by_Nivaldo_Cit_Filho_-_panoramio_%284%29.jpg/1280px-CURITIBA%2C_%28Pra%C3%A7a_Tiradentes%29%2C_Paran%C3%A1%2C_Brasil_by_Nivaldo_Cit_Filho_-_panoramio_%284%29.jpg" 
-               alt="Praça Tiradentes" 
-                      width="100%" 
-                             style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block;">
-
-                                 <details style="border: 2px solid #333; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 10px; background-color: #f9f9f9;">
-                                       <summary style="font-weight: bold; cursor: pointer;">16. Memorial Paranista</summary>
-                                             <div style="margin-top: 10px;">
-                                                     <p><strong>Endereço:</strong> R. Mateus Leme, 4700 (Anexo ao Parque)</p>
-                                                             <p><strong>Bairro:</strong> São Lourenço</p>
-                                                                     <p><strong>Horário:</strong> Terça a domingo, das 10:00 às 18:00</p>
-                                                                           </div>
-                                                                               </details>
-                                                                              </div>
-  <div style="display: flex; flex-direction: column;">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Memorial_%C3%81rabe_%28Curitiba%29.jpg" 
-               alt="Memorial Árabe"  
-                      width="100%" 
-                             style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block;">
-
-                                 <details style="border: 2px solid #333; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 10px; background-color: #f9f9f9;">
-                                       <summary style="font-weight: bold; cursor: pointer;">16. Memorial Paranista</summary>
-                                             <div style="margin-top: 10px;">
-                                                     <p><strong>Endereço:</strong> R. Mateus Leme, 4700 (Anexo ao Parque)</p>
-                                                             <p><strong>Bairro:</strong> São Lourenço</p>
-                                                                     <p><strong>Horário:</strong> Terça a domingo, das 10:00 às 18:00</p>
-                                                                           </div>
-                                                                               </details>
-                                                                              </div>
-  <div style="display: flex; flex-direction: column;">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Rua_das_Flores_e_o_pr%C3%A9dio_do_HSBC._Curitiba_-_Brasil_%2810162700163%29.jpg" 
-               alt="Rua das Flores" 
-                      width="100%" 
-                             style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block;">
-
-                                 <details style="border: 2px solid #333; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 10px; background-color: #f9f9f9;">
-                                       <summary style="font-weight: bold; cursor: pointer;">16. Memorial Paranista</summary>
-                                             <div style="margin-top: 10px;">
-                                                     <p><strong>Endereço:</strong> R. Mateus Leme, 4700 (Anexo ao Parque)</p>
-                                                             <p><strong>Bairro:</strong> São Lourenço</p>
-                                                                     <p><strong>Horário:</strong> Terça a domingo, das 10:00 às 18:00</p>
-                                                                           </div>
-                                                                               </details>
-                                                                                 </div>
-
-                                </div> <!-- O fechamento da div da grade foi movido para cá -->
-
+                                                                                     </details>
+                                                                                       </div>
+                                                                                       
+                                                                                         <!-- Item 7: Memorial Africano -->
+                                                                                           <div style="display: flex; flex-direction: column; height: 100%;">
+                                                                                               <img src="https://lirp.cdn-website.com/4a2f40c4/dms3rep/multi/opt/MemorialAfricano-640w.jpg" 
+                                                                                                        alt="Memorial Africano" 
+                                                                                                                 width="100%" 
+                                                                                                                          style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block; height: 200px; object-fit: cover;">
+                                                                                                                          
+                                                                                                                              <details style="border: 2px solid #333; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 10px; background-color: #f9f9f9; flex-grow: 1;">
+                                                                                                                                    <summary style="font-weight: bold; cursor: pointer;">Memorial Africano</summary>
+                                                                                                                                          <div style="margin-top: 10px;">
+                                                                                                                                                  <p><strong>Endereço:</strong> R. Lothário Boutin, 374</p>
+                                                                                                                                                          <p><strong>Bairro:</strong> Pinheirinho</p>
+                                                                                                                                                                  <p><strong>Horário:</strong> Aberto diariamente (espaço público)</p>
+                                                                                                                                                                        </div>
+                                                                                                                                                                            </details>
+                                                                                                                                                                              </div>
+                                                                                                                                                                              
+                                                                                                                                                                                <!-- Item 8: Paço da Liberdade -->
+                                                                                                                                                                                  <div style="display: flex; flex-direction: column; height: 100%;">
+                                                                                                                                                                                      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Pa%C3%A7o_da_Liberdade_-_Curitiba_-_panoramio_%284%29.jpg/1280px-Pa%C3%A7o_da_Liberdade_-_Curitiba_-_panoramio_%284%29.jpg" 
+                                                                                                                                                                                               alt="Paço da Liberdade" 
+                                                                                                                                                                                                        width="100%" 
+                                                                                                                                                                                                                 style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block; height: 200px; object-fit: cover;">
+                                                                                                                                                                                                                 
+                                                                                                                                                                                                                     <details style="border: 2px solid #333; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 10px; background-color: #f9f9f9; flex-grow: 1;">
+                                                                                                                                                                                                                           <summary style="font-weight: bold; cursor: pointer;">Paço da Liberdade</summary>
+                                                                                                                                                                                                                                 <div style="margin-top: 10px;">
+                                                                                                                                                                                                                                         <p><strong>Endereço:</strong> Praça Generoso Marques</p>
+                                                                                                                                                                                                                                                 <p><strong>Bairro:</strong> Centro</p>
+                                                                                                                                                                                                                                                         <p><strong>Horário:</strong> Segunda a sexta, das 09:00 às 18:00</p>
+                                                                                                                                                                                                                                                               </div>
+                                                                                                                                                                                                                                                                   </details>
+                                                                                                                                                                                                                                                                     </div>
+                                                                                                                                                                                                                                                                     
+                                                                                                                                                                                                                                                                     </div>-->
                 </body>
                 </html>
