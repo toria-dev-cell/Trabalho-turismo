@@ -79,78 +79,74 @@
                                 </head>
                                 <body>
 
-<!-- ITEM 1 (Repita este bloco até completar as 26 caixas) -->
-<div class="item-box">
-<!-- Imagem vinculada à caixa externa -->
-<img src="https://placeholder.com" alt="Foto do Memorial">
+<!-- Tabela pura para criar as 3 colunas sem usar Grid CSS -->
+<table style="width: 100%; border-collapse: separate; border-spacing: 30px; table-layout: fixed;">
+<tr>
 
-<!-- Componente HTML nativo para abrir e fechar -->
-<details>
-<summary>Memorial Exemplo 1</summary>
-<div class="content">
-<p><strong>Endereço:</strong> Rua Exemplo, 123</p>
-<p><strong>Bairro:</strong> Centro</p>
-<p><strong>Horário:</strong> 09h às 18h</p>
+<!-- Coluna 1 - Paris -->
+<td style="vertical-align: top; padding: 0;">
+<div style="position: relative; height: 450px; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
+<img src="https://unsplash.com" alt="Paris" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+
+<div style="position: absolute; bottom: 15px; left: 15px; right: 15px; background-color: rgba(255, 255, 255, 0.95); border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.15);">
+<details style="padding: 15px;">
+<summary style="font-weight: bold; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center; color: #1a2b4c;">
+Paris, França
+<span style="font-size: 0.8em;">➕</span>
+</summary>
+<div style="margin-top: 12px; border-top: 1px solid #ddd; padding-top: 10px; line-height: 1.5; color: #4a5568; font-size: 0.95em;">
+<p style="margin: 5px 0;"><strong>Atração:</strong> Torre Eiffel</p>
+<p style="margin: 5px 0;"><strong>Melhor Época:</strong> Primavera</p>
+<p style="margin: 5px 0;">Explore a cidade luz, rica em cultura, gastronomia refinada e monumentos históricos inesquecíveis.</p>
 </div>
 </details>
 </div>
+</div>
+</td>
 
-<!-- ITEM 2 -->
-<div class="item-box">
-<img src="https://placeholder.com" alt="Foto do Memorial">
-<details>
-<summary>Memorial Exemplo 2</summary>
-<div class="content">
-<p><strong>Endereço:</strong> Avenida Principal, 456</p>
-<p><strong>Bairro:</strong> Batel</p>
-<p><strong>Horário:</strong> 10h às 17h</p>
+<!-- Coluna 2 - Maldivas -->
+<td style="vertical-align: top; padding: 0;">
+<div style="position: relative; height: 450px; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
+<img src="https://unsplash.com" alt="Maldivas" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+
+<div style="position: absolute; bottom: 15px; left: 15px; right: 15px; background-color: rgba(255, 255, 255, 0.95); border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.15);">
+<details style="padding: 15px;">
+<summary style="font-weight: bold; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center; color: #1a2b4c;">
+Ilhas Maldivas
+<span style="font-size: 0.8em;">➕</span>
+</summary>
+<div style="margin-top: 12px; border-top: 1px solid #ddd; padding-top: 10px; line-height: 1.5; color: #4a5568; font-size: 0.95em;">
+<p style="margin: 5px 0;"><strong>Atração:</strong> Bangalôs sobre a água</p>
+<p style="margin: 5px 0;"><strong>Melhor Época:</strong> Novembro a Abril</p>
+<p style="margin: 5px 0;">Um paraíso tropical com águas cristalinas, praias de areia branca e vida marinha exuberante.</p>
 </div>
 </details>
 </div>
+</div>
+</td>
 
-<!-- ITEM 3 -->
-<div class="item-box">
-<img src="https://placeholder.com" alt="Foto do Memorial">
-<details>
-<summary>Memorial Exemplo 3</summary>
-<div class="content">
-<p><strong>Endereço:</strong> Praça da Independência, s/n</p>
-<p><strong>Bairro:</strong> São Francisco</p>
-<p><strong>Horário:</strong> 08h às 12h</p>
+<!-- Coluna 3 - Kyoto -->
+<td style="vertical-align: top; padding: 0;">
+<div style="position: relative; height: 450px; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
+<img src="https://unsplash.com" alt="Kyoto" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+
+<div style="position: absolute; bottom: 15px; left: 15px; right: 15px; background-color: rgba(255, 255, 255, 0.95); border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.15);">
+<details style="padding: 15px;">
+<summary style="font-weight: bold; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center; color: #1a2b4c;">
+Kyoto, Japão
+<span style="font-size: 0.8em;">➕</span>
+</summary>
+<div style="margin-top: 12px; border-top: 1px solid #ddd; padding-top: 10px; line-height: 1.5; color: #4a5568; font-size: 0.95em;">
+<p style="margin: 5px 0;"><strong>Atração:</strong> Templos e Santuários</p>
+<p style="margin: 5px 0;"><strong>Melhor Época:</strong> Outubro ou Abril</p>
+<p style="margin: 5px 0;">O coração tradicional do Japão, famoso por seus jardins zen, palácios imperiais e florestas de bambu.</p>
 </div>
 </details>
 </div>
+</div>
+</td>
 
-<!-- Copie e cole a estrutura acima mudando as informações até chegar a 26 itens -->
-
-</div>
-</details>
-</div>
-
-<!-- ITEM 3 -->
-<div class="item-box">
-<img src="https://placeholder.com" alt="Foto do Memorial">
-<details>
-<summary>Memorial Exemplo 3</summary>
-<div class="content">
-<p><strong>Endereço:</strong> Praça da Independência, s/n</p>
-<p><strong>Bairro:</strong> São Francisco</p>
-<p><strong>Horário:</strong> 08h às 12h</p>
-</div>
-</details>
-</details>
-</div>
-
-<!-- ITEM 3 -->
-<div class="item-box">
-<img src="https://placeholder.com" alt="Foto do Memorial">
-<details>
-<summary>Memorial Exemplo 3</summary>
-<div class="content">
-<p><strong>Endereço:</strong> Praça da Independência, s/n</p>
-<p><strong>Bairro:</strong> São Francisco</p>
-<p><strong>Horário:</strong> 08h às 12h</p>
-</div>
-</details>
+</tr>
+</table>
                 </body>
                 </html>
