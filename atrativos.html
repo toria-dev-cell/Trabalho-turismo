@@ -85,7 +85,7 @@
   <!-- Grupo 1 -->
   <div style="display: flex; flex-direction: column;">
     <!-- Imagem em cima, colada na caixa -->
-    <img src="https://wikimedia.org" 
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Rua_24_horas_4_Curitiba_Basil.jpg" 
          alt="Rua 24 Horas" 
          width="100%" 
          style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block;">
@@ -137,103 +137,233 @@
 
 </div>
 
+<!-- Container principal que organiza os itens em linhas com 3 colunas -->
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 25px; align-items: start;">
 
-                                <!-- Item 4 -->
-                                <details>
-                                        <summary>Teatro Paiol</summary>
-                                        <div class="conteudo">
-                                        <p> <strong>Endereço: </strong> R.Coronel Zacarias </p>
-                                        <p> <strong>Bairro:</strong> Prado Velho </p>
-                                        <p><strong>Horário: </strong> Conforme programação de espetáculo</p>
-                                </div>
-                        </details>
-                                <!-- Item 5 -->
-                                <details><summary>Jardim Botânico</summary>
-                                        <div class="conteudo">
-                                                <p> <strong>Endereço: </strong> </p>
-                                                <p> <strong> Bairro: </strong></p>
-                                                <p> <strong> Horário: </strong></p>
-                                        </div>
-                                </details>
-                                <!-- Item 6 -->
-                                <details><summary>Memorial Paranista</summary>
-                                        <div class="conteudo">
-                                        <p> <strong>Endereço: </strong> </p>
-                                        <p> <strong> Bairro: </strong></p>
-                                        <p> <strong> Horário: </strong></p>
-                                        </div>
-                                </details>
-                                <!-- Item 7 -->
-                                <details><summary>Memorial Africano</summary>
-                                        <div class="conteudo">
-                                        <p> <strong>Endereço: </strong> </p>
-                                        <p> <strong> Bairro: </strong></p>
-                                        <p> <strong> Horário: </strong></p>
-                                        </div>
-                                </details>
-                                <!-- Item 8 a 26 -->
-                                <details><summary>Item de Exemplo 8</summary>
-                                        <div class="conteudo">
-                                        <p> <strong>Endereço: </strong> </p>
-                                        <p> <strong> Bairro: </strong></p>
-                                        <p> <strong> Horário: </strong></p>
-                                        </div>
-                                </details>
-                                <details><summary>Item de Exemplo 9</summary>
-                                        <div class="conteudo">
-                                        <p> <strong>Endereço: </strong> </p>
-                                        <p> <strong> Bairro: </strong></p>
-                                        <p> <strong> Horário: </strong></p>
-                                        </div>
-                                </details>
-                                <details><summary>Item de Exemplo 10</summary>
-                                        <div class="conteudo">
-                                        <p> <strong>Endereço: </strong> </p>
-                                        <p> <strong> Bairro: </strong></p>
-                                        <p> <strong> Horário: </strong></p>
-                                        </div>
-                                </details>
-                                <details><summary>Item de Exemplo 11</summary>
-                                        <div class="conteudo">
-                                        <p> <strong>Endereço: </strong> </p>
-                                        <p> <strong> Bairro: </strong></p>
-                                        <p> <strong> Horário: </strong></p>
-                                        </div>
-                                </details>
-                                <details><summary>Item de Exemplo 12</summary>
-                                        <div class="conteudo">
-                                        <p> <strong>Endereço: </strong> </p>
-                                        <p> <strong> Bairro: </strong></p>
-                                        <p> <strong> Horário: </strong></p>
-                                        </div>
-                                </details>
-                                <details><summary>Item de Exemplo 13</summary>
-                                        <div class="conteudo">
-                                        <p> <strong>Endereço: </strong> </p>
-                                        <p> <strong> Bairro: </strong></p>
-                                        <p> <strong> Horário: </strong></p>
-                                        </div>
-                                </details>
-                                <details><summary>Item de Exemplo 14</summary>
-                                        <div class="conteudo">
-                                        <p> <strong>Endereço: </strong> </p>
-                                        <p> <strong> Bairro: </strong></p>
-                                        <p> <strong> Horário: </strong></p>
-                                        </div>
-                                </details>
-                                <details><summary>Item de Exemplo 15</summary>
-                                        <div class="conteudo">
-                                        <p> <strong>Endereço: </strong> </p>
-                                        <p> <strong> Bairro: </strong></p>
-                                        <p> <strong> Horário: </strong></p>
-                                        </div>
-                                </details>
-                                <details><summary>Item de Exemplo 16</summary>
-                                        <div class="conteudo">
-                                        <p> <strong>Endereço: </strong> </p>
-                                        <p> <strong> Bairro: </strong></p>
-                                        <p> <strong> Horário: </strong></p>
-                                        </div>
+  <!-- Item 4 -->
+  <div style="display: flex; flex-direction: column;">
+    <img src="https://wikimedia.org" 
+         alt="Teatro Paiol" 
+         width="100%" 
+         style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block;">
+    
+    <details style="border: 2px solid #333; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 10px; background-color: #f9f9f9;">
+      <summary style="font-weight: bold; cursor: pointer;">Teatro Paiol</summary>
+      <div style="margin-top: 10px;">
+        <p><strong>Endereço:</strong> R. Coronel Zacarias</p>
+        <p><strong>Bairro:</strong> Prado Velho</p>
+        <p><strong>Horário:</strong> Conforme programação de espetáculo</p>
+      </div>
+    </details>
+  </div>
+
+  <!-- Item 5 -->
+  <div style="display: flex; flex-direction: column;">
+    <img src="https://wikimedia.org" 
+         alt="Jardim Botânico" 
+         width="100%" 
+         style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block;">
+    
+    <details style="border: 2px solid #333; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 10px; background-color: #f9f9f9;">
+      <summary style="font-weight: bold; cursor: pointer;">Jardim Botânico</summary>
+      <div style="margin-top: 10px;">
+        <p><strong>Endereço:</strong> R. Eng. Ostoja Roguski, 350</p>
+        <p><strong>Bairro:</strong> Jardim Botânico</p>
+        <p><strong>Horário:</strong> Todos os dias, das 06:00 às 19:30</p>
+      </div>
+    </details>
+  </div>
+
+  <!-- Item 6 -->
+  <div style="display: flex; flex-direction: column;">
+    <img src="https://wikimedia.org" 
+         alt="Memorial Paranista" 
+         width="100%" 
+         style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block;">
+    
+    <details style="border: 2px solid #333; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 10px; background-color: #f9f9f9;">
+      <summary style="font-weight: bold; cursor: pointer;">Memorial Paranista</summary>
+      <div style="margin-top: 10px;">
+        <p><strong>Endereço:</strong> R. Mateus Leme, 4700</p>
+        <p><strong>Bairro:</strong> São Lourenço</p>
+        <p><strong>Horário:</strong> Terça a domingo, das 10:00 às 18:00</p>
+      </div>
+    </details>
+  </div>
+
+  <!-- Item 7 -->
+  <div style="display: flex; flex-direction: column;">
+    <img src="https://wikimedia.org" 
+         alt="Memorial Africano" 
+         width="100%" 
+         style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block;">
+    
+    <details style="border: 2px solid #333; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 10px; background-color: #f9f9f9;">
+      <summary style="font-weight: bold; cursor: pointer;">Memorial Africano</summary>
+      <div style="margin-top: 10px;">
+        <p><strong>Endereço:</strong> R. Lothário Boutin, 374</p>
+        <p><strong>Bairro:</strong> Pinheirinho</p>
+        <p><strong>Horário:</strong> Aberto diariamente (espaço público)</p>
+      </div>
+    </details>
+  </div>
+
+  <!-- Item 8 -->
+  <div style="display: flex; flex-direction: column;">
+    <img src="https://wikimedia.org" 
+         alt="Item de Exemplo 8" 
+         width="100%" 
+         style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block;">
+    
+    <details style="border: 2px solid #333; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 10px; background-color: #f9f9f9;">
+      <summary style="font-weight: bold; cursor: pointer;">Item de Exemplo 8</summary>
+      <div style="margin-top: 10px;">
+        <p><strong>Endereço:</strong> Rua de Exemplo, 123</p>
+        <p><strong>Bairro:</strong> Centro</p>
+        <p><strong>Horário:</strong> Segunda a sexta, das 09:00 às 18:00</p>
+      </div>
+    </details>
+  </div>
+
+  <!-- Item 9 -->
+  <div style="display: flex; flex-direction: column;">
+    <img src="https://wikimedia.org" 
+         alt="Item de Exemplo 9" 
+         width="100%" 
+         style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block;">
+    
+    <details style="border: 2px solid #333; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 10px; background-color: #f9f9f9;">
+      <summary style="font-weight: bold; cursor: pointer;">Item de Exemplo 9</summary>
+      <div style="margin-top: 10px;">
+        <p><strong>Endereço:</strong> Avenida de Teste, 456</p>
+        <p><strong>Bairro:</strong> Batel</p>
+        <p><strong>Horário:</strong> Sob consulta</p>
+      </div>
+    </details>
+  </div>
+
+  <!-- Item 10 -->
+  <div style="display: flex; flex-direction: column;">
+    <img src="https://wikimedia.org" 
+         alt="Item de Exemplo 10" 
+         width="100%" 
+         style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block;">
+    
+    <details style="border: 2px solid #333; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 10px; background-color: #f9f9f9;">
+      <summary style="font-weight: bold; cursor: pointer;">Item de Exemplo 10</summary>
+      <div style="margin-top: 10px;">
+        <p><strong>Endereço:</strong> Alameda Projetada, 789</p>
+        <p><strong>Bairro:</strong> Mercês</p>
+        <p><strong>Horário:</strong> 24 horas</p>
+      </div>
+    </details>
+  </div>
+
+</div>
+
+<!-- Container principal que organiza os itens de 10 a 16 em linhas com 3 colunas -->
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 25px; align-items: start; font-family: Arial, sans-serif;">
+  <!-- Item 11 -->
+  <div style="display: flex; flex-direction: column;">
+    <img src="https://wikimedia.org" 
+      alt="Museu Oscar Niemeyer" 
+      width="100%" 
+      style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block;">
+      
+      <details style="border: 2px solid #333; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 10px; background-color: #f9f9f9;">
+        <summary style="font-weight: bold; cursor: pointer;">11. Museu Oscar Niemeyer (MON)</summary>
+        <div style="margin-top: 10px;">
+          <p><strong>Endereço:</strong> R. Marechal Hermes, 999</p>
+          <p><strong>Bairro:</strong> Centro Cívico</p>
+          <p><strong>Horário:</strong> Terça a domingo, das 10:00 às 18:00</p>
+        </div>
+      </details>
+    </div>
+                                                                                                                        
+  <!-- Item 12 -->
+  <div style="display: flex; flex-direction: column;">
+    <img src="https://wikimedia.org"
+         alt="Bosque do Papa" 
+         width="100%"
+         style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block;">
+
+    <details style="border: 2px solid #333; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 10px; background-color: #f9f9f9;">
+      <summary style="font-weight: bold; cursor: pointer;">12. Bosque Papa João Paulo II</summary>
+      <div style="margin-top: 10px;">
+        <p><strong>Endereço:</strong> R. Wellington de Oliveira Viana, 33</p>
+        <p><strong>Bairro:</strong> Centro Cívico</p>
+        <p><strong>Horário:</strong> Todos os dias, das 09:00 às 18:00</p>
+      </div>
+    </details>
+  </div>
+                                                                                                                                                                                    
+  <!-- Item 13 -->
+  <div style="display: flex; flex-direction: column;">
+    <img src="https://wikimedia.org"
+         alt="Bosque Alemão"
+         width="100%" 
+         style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block;">
+        
+    <details style="border: 2px solid #333; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 10px; background-color: #f9f9f9;">
+      <summary style="font-weight: bold; cursor: pointer;">13. Bosque Alemão</summary>
+      <div style="margin-top: 10px;">
+        <p><strong>Endereço:</strong> R. Nicolo Paganini, s/n</p>
+        <p><strong>Bairro:</strong> Pilarzinho</p>
+        <p><strong>Horário:</strong> Todos os dias, das 08:00 às 20:00</p>
+      </div>
+    </details>
+  </div>
+                                                                                                                                                                                                                                                
+  <!-- Item 14 -->
+  <div style="display: flex; flex-direction: column;">
+    <img src="https://wikimedia.org" 
+         alt="Universidade Livre do Meio Ambiente" 
+         width="100%" 
+         style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block;">
+      
+    <details style="border: 2px solid #333; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 10px; background-color: #f9f9f9;">
+      <summary style="font-weight: bold; cursor: pointer;">14. Unilivre</summary>
+      <div style="margin-top: 10px;">
+        <p><strong>Endereço:</strong> R. Victor Benato, 210</p>
+        <p><strong>Bairro:</strong> Pilarzinho</p>
+        <p><strong>Horário:</strong> Todos os dias, das 08:00 às 18:00</p>
+      </div>
+    </details>
+  </div>
+                                                                                                                                                                                                                                                                                                            
+  <!-- Item 15 -->
+  <div style="display: flex; flex-direction: column;">
+    <img src="https://wikimedia.org" 
+       alt="Parque São Lourenço" 
+       width="100%" 
+       style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block;">
+       
+    <details style="border: 2px solid #333; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 10px; background-color: #f9f9f9;">
+      <summary style="font-weight: bold; cursor: pointer;">15. Parque São Lourenço</summary>
+      <div style="margin-top: 10px;">
+        <p><strong>Endereço:</strong> R. Mateus Leme, 4700</p>
+        <p><strong>Bairro:</strong> São Lourenço</p>
+        <p><strong>Horário:</strong> Todos os dias, das 06:00 às 22:00</p>
+      </div>
+    </details>
+  </div>
+                                                                                                                                                                                                                                                                                                                                                                        
+  <!-- Item 16 -->
+  <div style="display: flex; flex-direction: column;">
+    <img src="https://wikimedia.org" 
+       alt="Memorial Paranista" 
+       width="100%" 
+       style="border: 2px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; display: block;">
+        
+    <details style="border: 2px solid #333; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; padding: 10px; background-color: #f9f9f9;">
+      <summary style="font-weight: bold; cursor: pointer;">16. Memorial Paranista</summary>
+      <div style="margin-top: 10px;">
+        <p><strong>Endereço:</strong> R. Mateus Leme, 4700 (Anexo ao Parque)</p>
+        <p><strong>Bairro:</strong> São Lourenço</p>
+        <p><strong>Horário:</strong> Terça a domingo, das 10:00 às 18:00</p>
+      </div>
+    </details>
+  </div>
                                 </details>
                                 <details><summary>Item de Exemplo 17</summary>
                                         <div class="conteudo">
