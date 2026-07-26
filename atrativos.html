@@ -15,79 +15,14 @@
                         <h1 style="color: #ccc;">Você está na página dos atrativos</h1>
                         <p>Conteúdo específico dos atrativos.</p>
 
-
-                        <style>
-                                /* Estrutura de 3 colunas responsiva */
-                                .grid-container {
-                                display: grid;
-                                grid-template-columns: repeat(3, 1fr);
-                                gap: 20px;
-                                padding: 20px;
-                                font-family: Arial, sans-serif;
-                                }
-
-                                /* Estilização de cada caixa (item) */
-                                details {
-                                border: 1px solid #ccc;
-                                border-radius: 4px;
-                                padding: 15px;
-                                background-color: #f9f9f9;
-                                }
-
-                                /* Título clicável /
-                                summary {
-                                font-weight: bold;
-                                cursor: pointer;
-                                list-style: none; / Esconde a seta padrão no Chrome/Firefox */
-                                display: flex;
-                                justify-content: space-between;
-                                align-items: center;
-                                }
-
-                                /* Esconde a seta padrão no Safari */
-                                summary::-webkit-details-marker {
-                                display: none;
-                                }
-
-                                /* Adiciona o sinal de + visual */
-                                summary::after {
-                                content: "+";
-                                font-size: 1.2em;
-                                }
-
-                                /* Muda para - quando o item está aberto */
-                                details[open] summary::after {
-                                content: "-";
-                                }
-
-                                /* Espaçamento do conteúdo interno */
-                                .conteudo {
-                                margin-top: 15px;
-                                border-top: 1px solid #eee;
-                                padding-top: 10px;
-                                font-size: 0.9em;
-                                color: #444;
-                                }
-
-                                /* Ajuste para telas de celular */
-                                @media (max-width: 768px) {
-                                .grid-container {
-                                grid-template-columns: 1fr;
-                                }
-                                }
-                                </style>
-                                </head>
-                                <body>
-
 <!-- Tabela pura para criar as 3 colunas sem usar Grid CSS -->
 <table style="width: 100%; border-collapse: separate; border-spacing: 30px; table-layout: fixed;">
 <tr>
 
 <!-- Coluna 24 - Horas -->
-<td style="vertical-align: top; padding: 0;">
-<div style="position: relative; height: 450px; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
+<td>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Rua_24_horas_4_Curitiba_Basil.jpg/1280px-Rua_24_horas_4_Curitiba_Basil.jpg" alt="24 Horas" style="width: 100%; height: 100%; object-fit: cover; display: block;">
-
+</td>
 <div style="position: absolute; bottom: 15px; left: 15px; right: 15px; background-color: rgba(255, 255, 255, 0.95); border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.15);">
 <details style="padding: 15px;">
 <summary style="font-weight: bold; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center; color: #1a2b4c;">
